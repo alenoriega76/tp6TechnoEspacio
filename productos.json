@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "name": "lakshdaslk",
+    "description": "laksdhalskd",
+    "price": "1234.45"
+  },
+  {
+    "id": 2,
+    "name": "Celular Samsung",
+    "price": "323.234,45"
+  },
+  {
+    "id": 3,
+    "name": "Celular Motorolla",
+    "description": " ",
+    "price": "3.234,45"
+  },
+  {
+    "id": 4,
+    "name": "Memoria ram",
+    "description": " memroria ram de 16 GB",
+    "price": "4.567,34"
+  },
+  {
+    "id": 7,
+    "name": "Toallas de mano",
+    "description": "100% algodon",
+    "price": "34.45"
+  }
+]

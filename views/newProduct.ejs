@@ -1,0 +1,57 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Está creando un producto</h1>
+    <% if(errors){%>
+        <% errors.forEach(error =>{ %>
+            <h2> <%= error.msg %> </h2> 
+       <% } )%>
+
+    <%}%>
+    <form action="/newProduct" method="POST">
+ 			<span>
+ 				<i class="fa fa-user"></i>
+ 				<input type="text" placeholder="Nombre" id="name" name="name" >
+ 			</span><br>
+ 			<span>
+                <i class="fa-solid fa-key"></i>
+ 				<input type="text" placeholder="Descripción" id="description"  name="description" >
+ 			</span><br>
+             <span>
+                <i class="fa-solid fa-envelope"></i>
+ 				<input type="number" placeholder="precio" id="price" name="price" >
+ 			</span><br>
+ 				<button type="submit" id="botonRegistrar">Nuevo Producto</button>
+		</form>
+
+</body>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const productForm = document.getElementById("productForm");
+
+    productForm.addEventListener("submit", async function (event) {
+        event.preventDefault();
+
+        const formData = new FormData(productForm);
+        const response = await fetch("/newProduct", {
+            method: "POST",
+            body: formData,
+        });
+
+        if (response.ok) {
+            // El producto se creó correctamente, podrías mostrar un mensaje o redireccionar
+            console.log("Producto creado con éxito");
+        } else {
+            // Hubo un error al crear el producto, podrías mostrar un mensaje de error
+            console.error("Error al crear el producto");
+        }
+    });
+});
+</script>
+
+</html> -->

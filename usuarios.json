@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "email": "",
+    "password": "$2b$10$tKnI4ARzp97ldpDsdZYIi.dl1jzEaNiF1OYNUUF7GIotPizvepLX2",
+    "nombre": "",
+    "fec_nac": "",
+    "usuario": ""
+  },
+  {
+    "id": 2,
+    "email": "",
+    "password": "$2b$10$DxPdwHR98OkFdnGEdw.vOu7uEsNa92bI2vnrKT3d.7fkQOqjb3jP2",
+    "nombre": "",
+    "fec_nac": "",
+    "usuario": ""
+  },
+  {
+    "id": 3,
+    "email": "",
+    "password": "$2b$10$HtaiCriqSwO68jcqS/Jr0e8zbcdfDabPc7mUus/R3L4/hG73rjiZq",
+    "nombre": "",
+    "fec_nac": "",
+    "usuario": ""
+  },
+  {
+    "id": 4,
+    "email": "ale@gmail.com",
+    "password": "$2b$10$TmnT348q3OOYCOjVkQqCdu44k/vUXMR5FUXtjEtWU2qIk/TIR5YWO",
+    "nombre": "ale",
+    "fec_nac": "08/12/12",
+    "usuario": "ale76"
+  },
+  {
+    "id": 5,
+    "email": "polo@hotmail.com",
+    "password": "$2b$10$Bg3e0Pp0F0D8sKXxT.ZPbeFDwYdYEX18tWK2DZEsmujs9/OaFbd3K",
+    "nombre": "polo",
+    "fec_nac": "6/07/1978",
+    "usuario": "polo12"
+  },
+  {
+    "id": 6,
+    "email": "capi@gmail.com",
+    "password": "$2b$10$ghuKBhIvL9WABBUnl8HeneIMpyc24HYzyrIlKkklb9D5NL3JHEvn2",
+    "nombre": "capitan",
+    "fec_nac": "21/12/1987",
+    "usuario": "capi30"
+  }
+]
